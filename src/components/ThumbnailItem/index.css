@@ -1,0 +1,11 @@
+/* Write your code here. */
+
+.image-button {
+  border: none;
+  outline: none;
+  margin-bottom: 8px;
+  opacity: 0.5;
+}
+.image-active-button {
+  opacity: 1;
+}

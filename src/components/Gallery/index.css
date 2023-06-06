@@ -1,0 +1,43 @@
+/* Write your code here. */
+.bg-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 70vh;
+  }
+}
+
+.nature-image {
+  height: 200px;
+  width: 320px;
+  border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+  .nature-image {
+    height: 470px;
+    width: 700px;
+  }
+}
+.nature-heading {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 500;
+}
+.photo-by {
+  font-size: 20px;
+  color: #64748b;
+  font-weight: 400;
+  font-family: 'roboto';
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
